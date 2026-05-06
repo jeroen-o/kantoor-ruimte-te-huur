@@ -1,0 +1,91 @@
+# robots.txt — Bedrijfsruimte De Isselt, Amersfoort
+# Laatst bijgewerkt: 2026-05-06
+#
+# Algemene regel: alle crawlers zijn welkom.
+# AI-crawlers worden expliciet toegestaan voor maximale vindbaarheid
+# in generatieve zoekmachines (ChatGPT, Perplexity, Google AI Overviews,
+# Claude, Bing Copilot, Gemini, etc.).
+
+# ----- Standaard zoekmachines -----
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ----- AI-zoekmachines (GEO) -----
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google AI / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft Copilot
+User-agent: CCBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Mistral / le Chat
+User-agent: MistralAI-User
+Allow: /
+
+# DiffBot (gebruikt door diverse AI-services)
+User-agent: Diffbot
+Allow: /
+
+# ----- Standaard fallback -----
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://uw-domein.nl/sitemap.xml
+
+# LLM-overzicht
+# https://uw-domein.nl/llms.txt
