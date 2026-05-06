@@ -1,4 +1,5 @@
 # robots.txt — Bedrijfsruimte De Isselt, Amersfoort
+# Nijverheidsweg-Noord 130, 3812 PN Amersfoort
 # Laatst bijgewerkt: 2026-05-06
 #
 # Algemene regel: alle crawlers zijn welkom.
@@ -85,7 +86,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://uw-domein.nl/sitemap.xml
+Sitemap: https://bedrijfsruimte-huren-isselt-amersfoort.nl/sitemap.xml
 
 # LLM-overzicht
-# https://uw-domein.nl/llms.txt
+# https://bedrijfsruimte-huren-isselt-amersfoort.nl/llms.txt
